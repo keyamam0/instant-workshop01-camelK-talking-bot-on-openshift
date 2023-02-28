@@ -2,5 +2,13 @@
 
 == 初めに
 
+準備するもの
 
+- OpenShift Developer Sandbox
+
+
+
+== Executing on Local
+
+== Excuitng on OpenShift
 

@@ -7,6 +7,8 @@
 - OpenShift Developer Sandbox
 
 
+image::test.png[test,600,300 link=https://github.com/keyamam0/super-short-workshop-camel3-simple-talkbot/blob/main/images/Pasted%20Image%2020230228174848_573.png?raw=true]
+
 
 == Executing on Local
 

@@ -7,7 +7,7 @@
 本ハンズオンでは、
 ランダムに文章を生成してくれるWeb API(ここではchucknorris.ioを使用)をSourceとして、定期的に文章を受け取って、Chatアプリ(ここではSlackを使用)に連携する(Botで喋らせる)統合処理をCamel Kで作っていきます。
 
-image::2023-03-02T15-20-05-406Z.png[] 
+image::2023-03-02T15-33-31-625Z.png[] 
 
 無償でOpenShiftを試せるOpenShift Sandbox、端末(今回はLinuxを使用)、Slackのみで実施できますが、それぞれの準備方法などについては、まだ作成中です。
 
@@ -26,7 +26,7 @@ image::2023-03-02T15-21-06-312Z.png[]
 具体的な開発作業としては、
 処理フローの全体的な流れを記載するKamelet Binding、Kamelet(ベースは提供されている)、SlackのTokenや変換処理を記述する外部ファイルを作っていきます。
 
-image::2023-03-02T15-22-19-298Z.png[] 
+image::2023-03-02T15-34-02-369Z.png[] 
 
 Kamelet Binding、KamaletはCamel3からの新概念になりますが、個々の処理ロジックはKameletにカプセル化、Kamelet BindingでKamaletを組み合わせて、処理フローを作るという建付けになっています。
 

@@ -30,7 +30,7 @@ image::2023-03-02T15-34-02-369Z.png[]
 
 Kamelet Binding、KamaletはCamel3からの新概念になりますが、個々の処理ロジックはKameletにカプセル化、Kamelet BindingでKamaletを組み合わせて、処理フローを作るという建付けになっています。
 
-KameletとKamelet Bindingは、KubernetesネイティブでOpenShiftにシームレスにデプロイができるという機能的な良さがあると共に、処理ロジックの分類方法の観点でも、再利用性が高まることが期待できると思います。
+KameletとKamelet Bindingは、KubernetesネイティブでOpenShiftにシームレスにデプロイができるという機能的な良さがあると共に、処理ロジックの分類方法の観点でも、再利用性が高まることが期待できるブリリアントなデザインの予感はあります。
 
 
 == Executing at local

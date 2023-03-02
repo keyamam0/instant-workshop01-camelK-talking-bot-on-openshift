@@ -32,6 +32,17 @@ Kamelet Binding、KamaletはCamel3からの新概念になりますが、個々�
 
 KameletとKamelet Bindingは、KubernetesネイティブでOpenShiftにシームレスにデプロイができるという機能的な良さがあると共に、処理ロジックの分類方法の観点でも、再利用性が高まることが期待できるブリリアントなデザインの予感はあります。
 
+== ハンズオンの流れ
+
+半完成品を説明しながら、追加、修正を加えて完成させていきます。
+
+- semi-finish1
+出力はログ出力、OpenShiftへのApply用のアノテーションも入ってません
+
+- semi-finish2
+tokenとSlackのRoomIDを入れるだけで、OpenShiftにApply可能なバージョン
+
+
 
 == Executing at local
 

@@ -34,17 +34,19 @@ KameletとKamelet Bindingは、KubernetesネイティブでOpenShiftにシーム
 
 == ハンズオンの流れ
 
-半完成品を説明しながら、追加、修正を加えて完成させていきます。
+Kamelete bindingsとjlst、propertiesファイルの半完成品を説明しながら、追加、修正を加えて完成させていきます。
 
 - semi-finish1
-出力はログ出力、OpenShiftへのApply用のアノテーションも入ってません
+出力はログ出力、OpenShiftへのApply用のアノテーションも入ってません。
 
 - semi-finish2
-tokenとSlackのRoomIDを入れるだけで、OpenShiftにApply可能なバージョン
+tokenとSlackのRoomIDを入れるだけで、OpenShiftにApply可能なバージョン。
 
+- kamelets
+ハンズオンでは編集はしません
+Publicで提供しているものとの違いの説明を実施。Applyもする。Sandbox標準では動かない。
 
-
-== Executing at local
+== Executing at Local
 
 Under Construction
 JBanbを利用します。

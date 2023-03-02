@@ -49,9 +49,11 @@ Publicで提供しているものとの違いの説明を実施。Applyもする
 == Executing at Local
 
 Under Construction
+
 JBanbを利用します。
 
 == Deployment to OpenShift
 
 Under Construction
+
 全ファイルをocコマンドでOpenShiftに投入

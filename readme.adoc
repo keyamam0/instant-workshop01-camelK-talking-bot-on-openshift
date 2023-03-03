@@ -60,12 +60,16 @@ camel run --local-kamelet-dir [Localのkameletsのパス] *
 
 == Deployment to OpenShift
 
+全ファイルをocコマンドでOpenShiftに投入
+
+- Kamelet Bindingのyamlとjlst、propertiesの紐づけ情報をAnnotationで追加する必要がある
+
+- OpenShift Sandboxに元々入っているchuck-norris-source.kameletだとJSLTでエラーになるので上書き
+
+- slack-sink.kameletはbot interfaceを使用するように加工されたもの
+
 image::2023-03-03T02-38-16-208Z.png[] 
 Under Construction
-
-Kamelet Bindingのyamlとjlst、propertiesの紐づけ情報をAnnotationで追加する必要がある
-
-全ファイルをocコマンドでOpenShiftに投入
 
 oc create cm norris-transform --from-file=norris.jslt
 

@@ -2,7 +2,7 @@
 
 == 初めに
 
-こちらには、CamelKの超軽量ハンズオン#1 Talking Bot on OpenShiftのマテリアルを置いています。
+こちらには、CamelKの超軽量ハンズオンワークショップ#1 Talking Bot on OpenShiftのマテリアルを置いています。
 
 本ハンズオンでは、
 ランダムに文章を生成してくれるWeb API(ここではchucknorris.ioを使用)をSourceとして、定期的に文章を受け取って、Chatアプリ(ここではSlackを使用)に連携する(Botで喋らせる)統合処理をCamel Kで作っていきます。
@@ -21,7 +21,8 @@ Camel Kを使えば、以下のように様々な種類の統合処理を実現�
 
 image::2023-03-02T15-44-17-185Z.png[] 
 
-今回は、ETL的に左から右へ流すだけですが、Kafkaに流して、多くのアプリケーションからSourceのデータを利用させるといったことも容易に実現できます。
+今回は、
+ETL的に左から右へ流すだけですが、Kafkaに流して、多くのアプリケーションからSourceのデータを利用させるといったことも容易に実現できます。
 
 具体的な開発作業としては、
 処理フローの全体的な流れを記載するKamelet Binding、Kamelet(ベースは提供されている)、SlackのTokenや変換処理を記述する外部ファイルを作っていきます。
@@ -57,3 +58,8 @@ JBanbを利用します。
 Under Construction
 
 全ファイルをocコマンドでOpenShiftに投入
+
+== Reference
+
+https://access.redhat.com/documentation/ja-jp/red_hat_integration/2022.q4/html/kamelets_reference/index
+https://camel.apache.org/camel-kamelets/3.20.x/slack-sink.html

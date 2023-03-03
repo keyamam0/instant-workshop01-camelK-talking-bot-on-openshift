@@ -53,11 +53,29 @@ Under Construction
 
 JBanbを利用します。
 
+JBangのインストール方法のページ
+https://www.jbang.dev/download/
+
+camel run --local-kamelet-dir [Localのkameletsのパス] *
+
 == Deployment to OpenShift
 
+image::2023-03-03T02-38-16-208Z.png[] 
 Under Construction
 
+Kamelet Bindingのyamlとjlst、propertiesの紐づけ情報をAnnotationで追加する必要がある
+
 全ファイルをocコマンドでOpenShiftに投入
+
+oc create cm norris-transform --from-file=norris.jslt
+
+oc create secret generic norris --from-file=norris.properties
+
+oc apply -f slack-sink.kamelet.yaml 
+
+oc apply -f chuck-norris-source.kamelet.yaml 
+
+oc apply -f norris.yaml
 
 == Reference
 

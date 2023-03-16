@@ -1,7 +1,7 @@
 apiVersion: camel.apache.org/v1alpha1
 kind: KameletBinding
 metadata:
-  name: Norris
+  name: norris
   annotations:
     trait.camel.apache.org/mount.configs: "secret:norris"
     trait.camel.apache.org/mount.resources: "configmap:norris-transform"
